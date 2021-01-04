@@ -1,6 +1,6 @@
 [
     {
-        "filename": "/home/kit/scc/pw7656/.config/ssget/MM/Schenk/nlpkkt160/nlpkkt160.mtx",
+        "filename": "/gpfs/alpine/scratch/hanzt1/gen010/ssget/MM/Schenk/nlpkkt160/nlpkkt160.mtx",
         "problem": {
             "id": 1903,
             "group": "Schenk",
@@ -46,7 +46,7 @@
             "coo": {
                 "storage": 3606753792,
                 "max_relative_norm2": 0.0,
-                "time": 11938291.3,
+                "time": 5922418.7,
                 "completed": true
             }
         },
@@ -57,81 +57,86 @@
             "bicgstab": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
+                "iteration_timestamps": [],
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 10265.0
+                    "time": 15158.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 130309963293.0
+                    "time": 71795941294.0
                 },
-                "residual_norm": 17.12441342929628,
+                "residual_norm": 19.71618976235363,
                 "completed": true
             },
             "cg": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
+                "iteration_timestamps": [],
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 8608.0
+                    "time": 14756.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 131389136085.0
+                    "time": 72794056317.0
                 },
-                "residual_norm": 70.41603395472778,
+                "residual_norm": 75.54785323794023,
                 "completed": true
             },
             "cgs": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
+                "iteration_timestamps": [],
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 9483.0
+                    "time": 14234.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 129298819068.0
+                    "time": 69912454880.0
                 },
-                "residual_norm": 2527.8924932476577,
+                "residual_norm": 35751.38395854132,
                 "completed": true
             },
             "fcg": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
+                "iteration_timestamps": [],
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 11403.0
+                    "time": 15301.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 133790797589.0
+                    "time": 75270672311.0
                 },
-                "residual_norm": 123.65691832243782,
+                "residual_norm": 211.97456364681094,
                 "completed": true
             },
             "gmres": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
+                "iteration_timestamps": [],
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 9911.0
+                    "time": 15523.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 352927529989.0
+                    "time": 287674655818.0
                 },
-                "residual_norm": 16.81973922294599,
+                "residual_norm": 16.819739222946,
                 "completed": true
             }
         }

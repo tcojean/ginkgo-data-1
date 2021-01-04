@@ -1,6 +1,6 @@
 [
     {
-        "filename": "/home/kit/scc/pw7656/.config/ssget/MM/Freescale/FullChip/FullChip.mtx",
+        "filename": "/gpfs/alpine/scratch/hanzt1/gen010/ssget/MM/Freescale/FullChip/FullChip.mtx",
         "problem": {
             "id": 2380,
             "group": "Freescale",
@@ -23,10 +23,10 @@
                 "max": 2312481,
                 "mean": 8.91258220589673,
                 "variance": 3264522.733609922,
-                "skewness": 1224.7242835996772,
-                "kurtosis": 1504849.4798959525,
-                "hyperskewness": 1853409882.386908,
-                "hyperflatness": 2287897069244.726
+                "skewness": 1224.7242835996777,
+                "kurtosis": 1504849.4798959534,
+                "hyperskewness": 1853409882.3869093,
+                "hyperflatness": 2287897069244.728
             },
             "col_distribution": {
                 "min": 1,
@@ -36,17 +36,17 @@
                 "max": 2312476,
                 "mean": 8.91258220589673,
                 "variance": 3264514.991839886,
-                "skewness": 1224.724087439705,
-                "kurtosis": 1504848.8480465217,
-                "hyperskewness": 1853408441.0760184,
-                "hyperflatness": 2287894256359.5503
+                "skewness": 1224.7240874397053,
+                "kurtosis": 1504848.8480465229,
+                "hyperskewness": 1853408441.07602,
+                "hyperflatness": 2287894256359.552
             }
         },
         "spmv": {
             "coo": {
                 "storage": 425951728,
-                "max_relative_norm2": 9.437657805792128e-17,
-                "time": 1206846.3,
+                "max_relative_norm2": 9.437657805792131e-17,
+                "time": 933425.2,
                 "completed": true
             }
         },
@@ -57,81 +57,86 @@
             "bicgstab": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 997.896083904076,
+                "iteration_timestamps": [],
+                "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 8308.0
+                    "time": 20512.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 16239497930.0
+                    "time": 14473992932.0
                 },
-                "residual_norm": 71799.95818355435,
+                "residual_norm": 40600.89844389569,
                 "completed": true
             },
             "cg": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 997.896083904076,
+                "iteration_timestamps": [],
+                "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 6354.0
+                    "time": 13556.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 16654328083.0
+                    "time": 14783862758.0
                 },
-                "residual_norm": 1345719457.4254695,
+                "residual_norm": 380096646.45868709,
                 "completed": true
             },
             "cgs": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 997.896083904076,
+                "iteration_timestamps": [],
+                "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 4522.0
+                    "time": 14200.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 15790869943.0
+                    "time": 13541289354.0
                 },
-                "residual_norm": 10876829049364.807,
+                "residual_norm": 7844528369603463.0,
                 "completed": true
             },
             "fcg": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 997.896083904076,
+                "iteration_timestamps": [],
+                "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 4593.0
+                    "time": 13583.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 17426837160.0
+                    "time": 15623870087.0
                 },
-                "residual_norm": 28551455.88794708,
+                "residual_norm": 1412690225.2897647,
                 "completed": true
             },
             "gmres": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 997.896083904076,
+                "iteration_timestamps": [],
+                "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 7543.0
+                    "time": 14447.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 100413947073.0
+                    "time": 96471923566.0
                 },
-                "residual_norm": 995.5218643300379,
+                "residual_norm": 996.1856657428522,
                 "completed": true
             }
         }

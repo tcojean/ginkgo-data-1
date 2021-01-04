@@ -1,6 +1,6 @@
 [
     {
-        "filename": "/home/kit/scc/pw7656/.config/ssget/MM/Bodendiek/CurlCurl_4/CurlCurl_4.mtx",
+        "filename": "/gpfs/alpine/scratch/hanzt1/gen010/ssget/MM/Bodendiek/CurlCurl_4/CurlCurl_4.mtx",
         "problem": {
             "id": 2573,
             "group": "Bodendiek",
@@ -46,7 +46,7 @@
             "coo": {
                 "storage": 424253872,
                 "max_relative_norm2": 0.0,
-                "time": 1038711.0,
+                "time": 746955.0,
                 "completed": true
             }
         },
@@ -57,81 +57,86 @@
             "bicgstab": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 890.9733986421935,
+                "iteration_timestamps": [],
+                "rhs_norm": 890.9733986421934,
                 "generate": {
                     "components": {},
-                    "time": 8783.0
+                    "time": 14955.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 13779931820.0
+                    "time": 11809557549.0
                 },
-                "residual_norm": 346120.03848999817,
+                "residual_norm": 14430188.310996226,
                 "completed": true
             },
             "cg": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 890.9733986421935,
+                "iteration_timestamps": [],
+                "rhs_norm": 890.9733986421934,
                 "generate": {
                     "components": {},
-                    "time": 4646.0
+                    "time": 15121.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 14105544947.0
+                    "time": 12152396870.0
                 },
-                "residual_norm": 835028749698512.4,
+                "residual_norm": 21278000408758877.0,
                 "completed": true
             },
             "cgs": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 890.9733986421935,
+                "iteration_timestamps": [],
+                "rhs_norm": 890.9733986421934,
                 "generate": {
                     "components": {},
-                    "time": 4474.0
+                    "time": 14513.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 13391902890.0
+                    "time": 10999087336.0
                 },
-                "residual_norm": 605230288744093500000.0,
+                "residual_norm": 140372429257118760000.0,
                 "completed": true
             },
             "fcg": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 890.9733986421935,
+                "iteration_timestamps": [],
+                "rhs_norm": 890.9733986421934,
                 "generate": {
                     "components": {},
-                    "time": 4753.0
+                    "time": 14329.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 14844085912.0
+                    "time": 12842425086.0
                 },
-                "residual_norm": 700699090.0651779,
+                "residual_norm": 100936358.2569633,
                 "completed": true
             },
             "gmres": {
                 "recurrent_residuals": [],
                 "true_residuals": [],
-                "rhs_norm": 890.9733986421935,
+                "iteration_timestamps": [],
+                "rhs_norm": 890.9733986421934,
                 "generate": {
                     "components": {},
-                    "time": 8357.0
+                    "time": 14259.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 82446647901.0
+                    "time": 78875317857.0
                 },
-                "residual_norm": 330.63369981930767,
+                "residual_norm": 330.63369981931296,
                 "completed": true
             }
         }
