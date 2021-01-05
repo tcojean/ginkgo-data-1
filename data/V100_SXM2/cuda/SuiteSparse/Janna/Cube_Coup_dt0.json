@@ -46,7 +46,7 @@
             "coo": {
                 "storage": 1990497120,
                 "max_relative_norm2": 0.0,
-                "time": 2974431.7,
+                "time": 3661348.8,
                 "completed": true
             }
         },
@@ -61,14 +61,14 @@
                 "rhs_norm": 849.6173886176023,
                 "generate": {
                     "components": {},
-                    "time": 14605.0
+                    "time": 14322.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 33584638920.0
+                    "time": 40579513061.0
                 },
-                "residual_norm": 1556.5536267580147,
+                "residual_norm": 1583.599376450145,
                 "completed": true
             },
             "cg": {
@@ -78,14 +78,14 @@
                 "rhs_norm": 849.6173886176023,
                 "generate": {
                     "components": {},
-                    "time": 14604.0
+                    "time": 13854.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 33791550107.0
+                    "time": 40832560351.0
                 },
-                "residual_norm": 2571766.963501851,
+                "residual_norm": 3591284.99800627,
                 "completed": true
             },
             "cgs": {
@@ -95,14 +95,14 @@
                 "rhs_norm": 849.6173886176023,
                 "generate": {
                     "components": {},
-                    "time": 14388.0
+                    "time": 13965.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 32830023664.0
+                    "time": 39709512767.0
                 },
-                "residual_norm": 49169390580260147.0,
+                "residual_norm": 150619831413779.29,
                 "completed": true
             },
             "fcg": {
@@ -112,14 +112,14 @@
                 "rhs_norm": 849.6173886176023,
                 "generate": {
                     "components": {},
-                    "time": 14521.0
+                    "time": 14365.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 34491482005.0
+                    "time": 41542748779.0
                 },
-                "residual_norm": 11473147.815865716,
+                "residual_norm": 4379696.687472342,
                 "completed": true
             },
             "gmres": {
@@ -129,14 +129,14 @@
                 "rhs_norm": 849.6173886176023,
                 "generate": {
                     "components": {},
-                    "time": 14886.0
+                    "time": 14731.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 95484904333.0
+                    "time": 102593109290.0
                 },
-                "residual_norm": 438.57150325213328,
+                "residual_norm": 438.57150325213339,
                 "completed": true
             }
         }

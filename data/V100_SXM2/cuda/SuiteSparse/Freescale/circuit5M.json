@@ -45,8 +45,8 @@
         "spmv": {
             "coo": {
                 "storage": 952388656,
-                "max_relative_norm2": 2.5877655721763258e-17,
-                "time": 2145706.0,
+                "max_relative_norm2": 5.58740773545372e-19,
+                "time": 2398133.3,
                 "completed": true
             }
         },
@@ -61,14 +61,14 @@
                 "rhs_norm": 1361.3634526130207,
                 "generate": {
                     "components": {},
-                    "time": 14959.0
+                    "time": 14889.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 30180019373.0
+                    "time": 32613923699.0
                 },
-                "residual_norm": 168178452.06793297,
+                "residual_norm": 76792.8575416814,
                 "completed": true
             },
             "cg": {
@@ -78,14 +78,14 @@
                 "rhs_norm": 1361.3634526130207,
                 "generate": {
                     "components": {},
-                    "time": 14189.0
+                    "time": 14722.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 30863370575.0
+                    "time": 33378460146.0
                 },
-                "residual_norm": 89461645.92591502,
+                "residual_norm": 894112126.5181916,
                 "completed": true
             },
             "cgs": {
@@ -95,14 +95,14 @@
                 "rhs_norm": 1361.3634526130207,
                 "generate": {
                     "components": {},
-                    "time": 15039.0
+                    "time": 14140.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 28872948504.0
+                    "time": 31310433182.0
                 },
-                "residual_norm": 87788014268935.28,
+                "residual_norm": 7372722659139.751,
                 "completed": true
             },
             "fcg": {
@@ -112,14 +112,14 @@
                 "rhs_norm": 1361.3634526130207,
                 "generate": {
                     "components": {},
-                    "time": 14443.0
+                    "time": 14568.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 32541402255.0
+                    "time": 35061498970.0
                 },
-                "residual_norm": 422888.48526464976,
+                "residual_norm": 273313.6133763527,
                 "completed": true
             },
             "gmres": {
@@ -129,14 +129,14 @@
                 "rhs_norm": 1361.3634526130207,
                 "generate": {
                     "components": {},
-                    "time": 14379.0
+                    "time": 15003.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 176705361278.0
+                    "time": 179104120524.0
                 },
-                "residual_norm": 1315.1433472976726,
+                "residual_norm": 1315.741432454774,
                 "completed": true
             }
         }

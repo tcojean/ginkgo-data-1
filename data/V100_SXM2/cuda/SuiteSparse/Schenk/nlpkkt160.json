@@ -46,7 +46,7 @@
             "coo": {
                 "storage": 3606753792,
                 "max_relative_norm2": 0.0,
-                "time": 5922418.7,
+                "time": 10382601.4,
                 "completed": true
             }
         },
@@ -61,12 +61,12 @@
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 15158.0
+                    "time": 15181.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 71795941294.0
+                    "time": 116095052133.0
                 },
                 "residual_norm": 19.71618976235363,
                 "completed": true
@@ -78,12 +78,12 @@
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 14756.0
+                    "time": 14735.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 72794056317.0
+                    "time": 116584389316.0
                 },
                 "residual_norm": 75.54785323794023,
                 "completed": true
@@ -95,12 +95,12 @@
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 14234.0
+                    "time": 15757.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 69912454880.0
+                    "time": 114507019328.0
                 },
                 "residual_norm": 35751.38395854132,
                 "completed": true
@@ -112,14 +112,14 @@
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 15301.0
+                    "time": 14050.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 75270672311.0
+                    "time": 119046173897.0
                 },
-                "residual_norm": 211.97456364681094,
+                "residual_norm": 211.9745636468109,
                 "completed": true
             },
             "gmres": {
@@ -129,14 +129,14 @@
                 "rhs_norm": 1668.246291456735,
                 "generate": {
                     "components": {},
-                    "time": 15523.0
+                    "time": 15054.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 287674655818.0
+                    "time": 332444958246.0
                 },
-                "residual_norm": 16.819739222946,
+                "residual_norm": 16.819739222945996,
                 "completed": true
             }
         }
