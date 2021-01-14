@@ -1,0 +1,89 @@
+[
+    {
+        "filename": "/home/users/coe0256/.config/ssget/MM/Bourchtein/atmosmodj/atmosmodj.mtx",
+        "problem": {
+            "id": 2266,
+            "group": "Bourchtein",
+            "name": "atmosmodj",
+            "rows": 1270432,
+            "cols": 1270432,
+            "nonzeros": 8814880,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.6690207156308852,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.938490214352283,
+                "variance": 0.059955494916065828,
+                "skewness": -3.878508391650719,
+                "kurtosis": 17.23558812044153,
+                "hyperskewness": -84.68998137444032,
+                "hyperflatness": 476.5670947165478
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.938490214352283,
+                "variance": 0.059955494916065828,
+                "skewness": -3.878508391650719,
+                "kurtosis": 17.23558812044153,
+                "hyperskewness": -84.68998137444032,
+                "hyperflatness": 476.5670947165478
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 141038080,
+                "max_relative_norm2": 0.0,
+                "time": 0.0003762470036745071,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        },
+        "tuning": {
+            "time": [
+                0.00083449,
+                0.0004947365,
+                0.0003377415,
+                0.0003152286,
+                0.0003122377,
+                0.0002836448,
+                0.0002695391,
+                0.000285914,
+                0.0003130105,
+                0.0003145697,
+                0.00031270330000000005,
+                0.00031571560000000004,
+                0.00031694669999999994
+            ],
+            "values": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                256,
+                512,
+                1024,
+                2048,
+                4096
+            ]
+        }
+    }
+]

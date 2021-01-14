@@ -1,0 +1,89 @@
+[
+    {
+        "filename": "/home/users/coe0256/.config/ssget/MM/Freescale/FullChip/FullChip.mtx",
+        "problem": {
+            "id": 2380,
+            "group": "Freescale",
+            "name": "FullChip",
+            "rows": 2987012,
+            "cols": 2987012,
+            "nonzeros": 26621983,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9999996192108144,
+            "nsym": 0.005614865134161801,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 2312481,
+                "mean": 8.91258220589673,
+                "variance": 3264522.733609922,
+                "skewness": 1224.7242835996772,
+                "kurtosis": 1504849.4798959525,
+                "hyperskewness": 1853409882.386908,
+                "hyperflatness": 2287897069244.726
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 2312476,
+                "mean": 8.91258220589673,
+                "variance": 3264514.991839886,
+                "skewness": 1224.724087439705,
+                "kurtosis": 1504848.8480465217,
+                "hyperskewness": 1853408441.0760184,
+                "hyperflatness": 2287894256359.5503
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 425951728,
+                "max_relative_norm2": 8.843487154159823e-17,
+                "time": 0.0011653166890144348,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        },
+        "tuning": {
+            "time": [
+                0.0023722014,
+                0.0013365267999999999,
+                0.0008762755000000001,
+                0.0008298581,
+                0.0009186471,
+                0.001073048,
+                0.0025090946,
+                0.0059860783,
+                0.0099656056,
+                0.0175672585,
+                0.031783313800000007,
+                0.0317900396,
+                0.0318510422
+            ],
+            "values": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                256,
+                512,
+                1024,
+                2048,
+                4096
+            ]
+        }
+    }
+]

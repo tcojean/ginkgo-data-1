@@ -1,0 +1,89 @@
+[
+    {
+        "filename": "/home/users/coe0256/.config/ssget/MM/Janna/StocF-1465/StocF-1465.mtx",
+        "problem": {
+            "id": 2547,
+            "group": "Janna",
+            "name": "StocF-1465",
+            "rows": 1465137,
+            "cols": 1465137,
+            "nonzeros": 21005389,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 14.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 189,
+                "mean": 14.336808776244134,
+                "variance": 6.62432908072756,
+                "skewness": 1.2727800435568544,
+                "kurtosis": 207.3276220854056,
+                "hyperskewness": 10802.63771981054,
+                "hyperflatness": 656261.6801586934
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 14.0,
+                "median": 15.0,
+                "q3": 15.0,
+                "max": 189,
+                "mean": 14.336808776244134,
+                "variance": 6.62432908072756,
+                "skewness": 1.2727800435568544,
+                "kurtosis": 207.3276220854056,
+                "hyperskewness": 10802.63771981054,
+                "hyperflatness": 656261.6801586934
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 336086224,
+                "max_relative_norm2": 0.0,
+                "time": 0.0006502106904983521,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        },
+        "tuning": {
+            "time": [
+                0.0018507305000000003,
+                0.0010492922,
+                0.0006915453999999999,
+                0.0006861024,
+                0.0006367998,
+                0.0005554758999999999,
+                0.0005303782,
+                0.0005270003,
+                0.000535004,
+                0.0005833465,
+                0.0006101456,
+                0.0006099,
+                0.0006099033
+            ],
+            "values": [
+                1,
+                2,
+                4,
+                8,
+                16,
+                32,
+                64,
+                128,
+                256,
+                512,
+                1024,
+                2048,
+                4096
+            ]
+        }
+    }
+]
