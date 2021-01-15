@@ -1,0 +1,144 @@
+[
+    {
+        "filename": "/home/terry/.config/ssget/MM/Freescale/circuit5M/circuit5M.mtx",
+        "problem": {
+            "id": 2276,
+            "group": "Freescale",
+            "name": "circuit5M",
+            "rows": 5558326,
+            "cols": 5558326,
+            "nonzeros": 59524291,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.99999985176358,
+            "nsym": 0.4198865531852634,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 1290501,
+                "mean": 10.70903199992228,
+                "variance": 1840407.715818739,
+                "skewness": 868.0286239657106,
+                "kurtosis": 792462.934535108,
+                "hyperskewness": 731997566.5764096,
+                "hyperflatness": 678435745640.8468
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 1290501,
+                "mean": 10.70903199992228,
+                "variance": 1840407.715808664,
+                "skewness": 868.0286239728383,
+                "kurtosis": 792462.9345437843,
+                "hyperskewness": 731997566.5864275,
+                "hyperflatness": 678435745651.9885
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 952388656,
+                "max_relative_norm2": 8.957380627351031e-20,
+                "time": 0.0027737726,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        },
+        "solver": {
+            "bicgstab": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "iteration_timestamps": [],
+                "rhs_norm": 2357.6102307209309,
+                "generate": {
+                    "components": {},
+                    "time": 0.000013155
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 35.990489257
+                },
+                "residual_norm": 17984965.7050168,
+                "completed": true
+            },
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "iteration_timestamps": [],
+                "rhs_norm": 2357.6102307209309,
+                "generate": {
+                    "components": {},
+                    "time": 0.000011422
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 37.986175145
+                },
+                "residual_norm": 240837579.68843318,
+                "completed": true
+            },
+            "cgs": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "iteration_timestamps": [],
+                "rhs_norm": 2357.6102307209309,
+                "generate": {
+                    "components": {},
+                    "time": 0.000011211
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 35.128350623
+                },
+                "residual_norm": 2.0741954933623396e28,
+                "completed": true
+            },
+            "fcg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "iteration_timestamps": [],
+                "rhs_norm": 2357.6102307209309,
+                "generate": {
+                    "components": {},
+                    "time": 0.000007404
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 40.782661952
+                },
+                "residual_norm": 356595.88288666037,
+                "completed": true
+            },
+            "gmres": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "iteration_timestamps": [],
+                "rhs_norm": 2357.6102307209309,
+                "generate": {
+                    "components": {},
+                    "time": 0.000012233
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 224.884982988
+                },
+                "residual_norm": 2356.3292263701475,
+                "completed": true
+            }
+        }
+    }
+]
